@@ -25,3 +25,14 @@ There are two forms of singleton design pattern
 Prototype Pattern says that
 cloning of an existing object instead of creating new one and can also be customized as per the requirement.
 This pattern should be followed, if the cost of creating a new object is expensive and resource intensive.
+
+1.5
+Builder Pattern says that "construct a complex object from simple objects using step-by-step approach"
+It is mostly used when object can't be created in single step like in the de-serialization of a complex object.
+
+
+
+2.1
+An Adapter Pattern says that just "converts the interface of a class into another interface that a client wants".
+In other words, to provide the interface according to client requirement while using the services of a class with a different interface.
+The Adapter Pattern is also known as Wrapper.
