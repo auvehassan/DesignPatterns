@@ -1,7 +1,5 @@
 package creational.prototype;
 
-interface Prototype {
-
-    public Prototype getClone();
-
-}//End of Prototype interface.
+public interface Prototype extends Cloneable {
+    Prototype clone();
+}
